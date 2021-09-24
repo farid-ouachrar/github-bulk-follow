@@ -2,7 +2,7 @@
 
 ## Development
 
-Install npm packages:
+Install packages:
 
 ```console
 yarn
@@ -14,3 +14,4 @@ Add environment variables:
 touch .env
 ```
 
+⚠️ WIP
