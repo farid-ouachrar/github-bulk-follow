@@ -4,17 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node follow.js",
-    "aggregate": "node aggregator.js"
+    "start": "node src/follow.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@octokit/core": "^3.5.1"
+    "@octokit/core": "^3.5.1",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "axios": "^0.21.4",
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.13"
+    "axios": "^0.21.4"
   }
 }
