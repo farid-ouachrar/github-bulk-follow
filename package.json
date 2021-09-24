@@ -1,0 +1,20 @@
+{
+  "name": "github-mass-follower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node follow.js",
+    "aggregate": "node aggregator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^3.5.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
