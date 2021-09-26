@@ -10,7 +10,7 @@
     git clone git@github.com:farid-ouachrar/github-bulk-follow.git
 ```
 
-2. You need to define environment variables:
+2. You need to define environment variables in a .env file in root:
    ```
    GITHUB_PERSONAL_TOKEN
    ```
