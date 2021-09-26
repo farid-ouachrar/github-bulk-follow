@@ -1,17 +1,53 @@
-# Github mass follow
+# Github bulk follow
 
-## Development
+### Getting Started
 
-Install packages:
+#### Prerequisites
 
-```console
+1. Clone the project to your local environment:
+
+```
+    git clone git@github.com:farid-ouachrar/github-bulk-follow.git
+```
+
+2. You need to define environment variables:
+   ```
+   GITHUB_PERSONAL_TOKEN
+   ```
+   
+#### Where to find these values:
+
+[Creating a personal access token tutorial](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+
+### Installing
+
+Once you have maven installed on your environment, install the project dependencies via:
+
+```
 yarn
 ```
 
-Add environment variables:
+### Add/modify user accounts input file:
 
-```console
-touch .env
+To add a custom list of usernames to run the script with, you can either modify or add a new file within the data folder with an array containing usernames.
+
+```
+- data
+  - example.json
+- src
+```
+### Running
+
+Once you have installed dependencies, this can be run from the terminal by running the following command:
+```
+yarn start follow <filename>
 ```
 
-⚠️ WIP
+### Contributing
+
+If you have any improvement suggestions please create a pull request and I'll review it.
+
+### License
+
+This project is licensed under the MIT License
