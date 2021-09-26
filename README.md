@@ -15,9 +15,11 @@
    GITHUB_PERSONAL_TOKEN
    ```
    
-#### Where to find these values:
+#### Where to find the personal access token:
 
 [Creating a personal access token tutorial](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+**Note**: Make sure to enable `user:follow` permission to allow script to run successfully.
 
 
 ### Installing
